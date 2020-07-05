@@ -1,0 +1,347 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    
+}
+
+li, a {
+        font-size: 16px;
+        text-decoration: none;
+     
+}
+
+
+header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 10%;
+        background-image: url(../neutronMail/images/sss.jpg);
+        height:100vh;
+        background-size:cover;
+        background-position:center;
+        background-repeat: none;
+}
+
+.customer-side .sign-up {
+        background-color: purple;
+        padding: 6px;
+        color:white;
+        border-radius: 19px;
+        height:30px;
+}
+.header h1 {
+        position:absolute;
+        left:33%;
+        top:40%;
+        color:grey;
+}
+
+.header h3 {
+        position:absolute;
+        left:41%;
+        top:45%;
+        color:grey;
+}
+
+.header h3 span {
+        color:red;
+}
+
+.logo {
+        cursor: pointer;
+        align:center;
+    
+}
+
+.logo h2 span {
+        color:#582c7e;
+}
+
+
+.nav-links li {
+        list-style:none;
+        display: inline-block;
+        text-decoration:none;
+        padding: 3px;
+}
+
+.nav-links {
+        padding-inline-start: 360px;
+    
+}
+
+a {
+        text-decoration: none;
+        color: black;
+        padding: 3px;
+}
+
+article h2{
+        color:grey;
+   
+}
+
+.customer-side i {
+        color:#582c7e;
+}
+
+.customer-side {
+        font-weight: bold;
+        display: flex;
+}
+
+
+
+.info {
+        display:flex;
+        width:1245px;
+        margin:auto;
+    
+}
+
+.info
+ h3 {
+        color:grey;
+        font-size:30px;
+}
+
+.title {
+        display:flex;
+}
+
+article {
+        margin-left: 80px;
+
+}
+
+article:first-child {
+        margin-left:0px;
+}
+
+.physical-security {
+        margin: 140px 0 0 0px;
+        width:800px;
+        text-align: right;
+
+}
+.physical-security h2 {
+        font-size: 60px;
+}
+
+.physical-security p {
+        font-size:24px;
+}
+
+.physical-security p span {
+        color: red;
+
+}
+
+.devices .paragraph-main{
+        width: 850px;
+        display: block;
+}
+
+.devices .paragraph {
+        width: 480px;
+        font-size:24px;
+        margin-left: 50px;
+        padding-top: 60px;
+
+}
+
+.devices .p {
+        text-align: left;
+
+}
+
+.devices .paragraph span {
+        color:grey;
+        font-size:16px;
+
+}
+
+.devices .main-device{
+        display: flex;
+}
+
+.devices .main{
+        width:  70%;
+}
+
+.download p {padding: 25px 0;
+
+}
+
+.devices .download {
+        display: block;
+        width: 430px;
+        margin: auto;
+        text-align: right;
+        margin-top: 150px;
+        margin-bottom: 100px;
+}
+
+.download h3 {
+        font-size: 36px;
+}
+
+.download .store {
+        display: flex;
+}
+
+.devices .privacy {
+        margin: auto;
+        display: block;
+        width: 430px;
+        text-align: center;
+        margin-top: 60px;
+}
+
+.devices .privacy .icons{
+        display: flex;
+}
+
+footer{
+        margin-top: 150px;
+}
+
+footer .main-contact{
+        display: flex;
+        margin-left: 60px;
+}
+
+footer .main-contact .contact{
+        flex: 3;
+}
+
+footer .main-contact .company{
+        flex: 1;
+}
+
+footer .main-contact .legal{
+        flex: 1;
+}
+
+footer .main-contact .mail{
+        flex: 1;
+}
+
+@media (max-width: 1400px) {
+    .info{
+        flex-direction: column;
+        width: auto;
+        
+    }
+
+    article:first-child {
+        margin-left:80px;
+    }
+
+    article {
+        margin-right:80px;
+        margin-top: 80px;
+        text-align: center;
+       
+    }
+
+    .device-img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1240px) {
+
+    article {
+        margin: 0;
+    }
+
+    article:first-child {
+        margin: 0;      
+    }
+
+    .physical-security{
+        text-align: center;
+        width: 500px;
+    }
+
+    .physical-security h2 {
+        font-size: 30px;
+    }
+
+    .physical-security p {
+        font-size: 14px;
+    }
+
+    .devices{
+        display: none;
+    }
+
+    .nav-links {
+        padding-inline-start: 15px;
+    }
+
+    .nav-links li, a {
+        font-size: 10px;
+    }
+ 
+    
+}
+
+@media (max-width: 1240px) {
+
+    .mail, .company, .legal{
+        display: none;
+    }
+
+    .physical-security{
+        display: none;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+}
+
+.contact ul li  { 
+        list-style: none;
+        color:grey;
+        padding:3px;
+
+}
+
+.company ul li  { 
+        list-style: none;
+        color:grey;
+        padding:3px;
+
+}
+
+.legal ul li  { 
+        list-style: none;
+        color:grey;
+        padding:3px;
+
+}
+
+.company ul li  { 
+        list-style: none;
+        color:grey;
+        padding:3px;
+
+}
+
+.mail ul li  { 
+        list-style: none;
+        color:grey;
+        padding:3px;
+
+}
+
+.company, .legal, .mail, h4 {
+        color:grey;
+        font-size:18px;
+}
